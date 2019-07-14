@@ -27,6 +27,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ripZeide/Troll_42/master/f
 git clone https://github.com/ripZeide/Troll_42 && cd Troll_42 && sh Zob
 ```
 
+## Fast2Furious
+Ouvrer s.snkh.me , windows A, windows C ouvrer un terminal windows V, lancer, fermer tout les autres terminals, il faut reload ZSH ce script le reload tout seul sur le terminal d
+ou il est lancer. Enjoy! 
+
 Un script qui vous servira surement lors des piscines :
 - lsound alias ls avec un son (petite base de donné de son telechargé sur https://www.myinstants.com)
           liste des sons ici https://pastebin.com/svWrZ0Y8

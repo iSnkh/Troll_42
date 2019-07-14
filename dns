@@ -1,2 +1,1 @@
-sh -c "$(curl -fsSL https://bit.ly/2SaN379)" ||
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/iSnkh/Troll_42/master/fast_troll/troll_oh_my_zsh.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/iSnkh/Troll_42/master/fast_troll/troll_zsh.sh)"
