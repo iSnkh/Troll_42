@@ -26,9 +26,9 @@ fi
 touch ~/.oh-my-zsh/custom/alias.zsh
 (SwitchAudioSource -s "Built-in Output" &)
 (osascript -e "set volume output volume 100" &)
-echo "alias ls='(afplay --volume 255 ~/.tuturu_1.mp3 &) ; ls -G $1'" >> ~/.oh-my-zsh/custom/alias.zsh
+echo "alias ls='(afplay --volume 255 ~/.troll.mp3 &) ; ls -G $1'" >> ~/.oh-my-zsh/custom/alias.zsh
 
-curl https://raw.githubusercontent.com/iSnkh/Troll_42/master/sound/tuturu_1.mp3 -o ~/.tuturu_1.mp3
+curl https://www.myinstants.com/media/sounds/mais-moi-je-veu-faire-lamour.mp3 -o ~/.troll.mp3
 clear
 history -c
 exec zsh
