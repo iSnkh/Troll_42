@@ -6,10 +6,16 @@
 #    By: amonteli <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2019/07/20 20:33:29 by amonteli     #+#   ##    ##    #+#        #
-#    Updated: 2019/07/23 11:51:55 by amonteli    ###    #+. /#+    ###.fr      #
+#    Updated: 2019/07/23 18:37:12 by amonteli    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
+
+if [ -f ~/.brew/bin/SwitchAudioSource ]
+then
+else
+	 ~/.brew/bin/brew install switchaudio-osx
+fi
 
 function header()
 {
@@ -30,8 +36,8 @@ open /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngin
 
 for ((i=1;i<=7;i++)); 
 do
-	(SwitchAudioSource -s "Built-in Output" &)
-	(osascript -e "set volume output volume 100" &)
+	~/.brew/bin/SwitchAudioSource -s "Built-in Output"
+	osascript -e "set volume output volume 100"
 	afplay --volume 42 ~/.troll.mp3
 done
 

