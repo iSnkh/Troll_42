@@ -1,1 +1,1 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/iSnkh/Troll_42/master/fast_troll/troll_zsh.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/iSnkh/Troll_42/master/lsound/install.sh)"
