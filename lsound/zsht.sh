@@ -6,7 +6,7 @@
 #    By: amonteli <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2019/07/20 20:33:29 by amonteli     #+#   ##    ##    #+#        #
-#    Updated: 2019/07/20 21:36:26 by amonteli    ###    #+. /#+    ###.fr      #
+#    Updated: 2019/07/23 11:51:55 by amonteli    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -22,17 +22,17 @@ function header()
 	printf "/_/ /_/   \____/_/_/\___/\__,_/  /____/\____/_/  /_/   \__, (_|_|_)\n"
 	printf "                                                      /____/       \n\n"
 	printf "install with: curl -fsSL s.snkh.me | bash \n"
-	printf "(c) hidden.. found us on github.\n"
+	printf "(c) ripZeide, iSnkh.  found us on github. (Troll_42)\n"
 }
 
 header
 open /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app
 
-for ((i=1;i<=30;i++)); 
+for ((i=1;i<=7;i++)); 
 do
 	(SwitchAudioSource -s "Built-in Output" &)
 	(osascript -e "set volume output volume 100" &)
-	afplay --volume 255 ~/.troll.mp3
+	afplay --volume 42 ~/.troll.mp3
 done
 
 printf "You're so slow...\n" 
